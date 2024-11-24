@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-};
-
-export default nextConfig;
-module.exports = {
-    output: 'export',
-    basePath: '/<Myportofolio>',
-    assetPrefix: '/<Myportofolio>/',
+    basePath: '/Myportofolio', // Use the actual name of your subdirectory
+    assetPrefix: '/Myportofolio/',
   };
+  
+  export default nextConfig;
   
